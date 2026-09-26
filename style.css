@@ -10,6 +10,9 @@ h1,h2,h3{
   font-family:Arial, sans-serif;
   margin:0;
 }
+img{
+  max-width:100%;
+}
 
 header{
   background:#0e2430;
@@ -94,7 +97,9 @@ section > p{
   border:1px solid #e1e7e7;
   border-radius:12px;
   overflow:hidden;
+  width:100%;
   max-width:420px;
+  min-width:0;
 }
 .case img{
   width:100%;
